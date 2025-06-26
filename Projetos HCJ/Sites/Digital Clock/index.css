@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco */
+    font-family: 'Digital Display', sans-serif; /* Fonte digital */
+}
+
+.clock {
+    display: flex; /* Usar flexbox para alinhar os elementos */
+    align-items: center; /* Centralizar verticalmente */
+    background-color: #222; /* Fundo do relógio */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 20px rgb(255, 255, 255); /* Sombra verde */
+}
+
+.number {
+    font-size: 150px; /* Tamanho grande */
+    font-weight: bold; /* Negrito */
+    color: #ffffff; /* Cor verde */
+    text-shadow: 0 0 10px rgb(255, 255, 255); /* Sombra para dar profundidade */
+}
+
+.separator {
+    font-size: 150px; /* Tamanho igual ao dos números */
+    font-weight: bold; /* Negrito */
+    color: #ffffff; /* Cor verde */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Sombra para dar profundidade */
+    margin: 0 10px; /* Espaçamento horizontal */
+}
+
+body {
+    font-family: 'Tektur', sans-serif;
+}
+
+h1 {
+    font-family: 'Tektur', sans-serif;
+    font-weight: 700; /* Peso mais grosso para o título */
+}
+
+p {
+    font-family: 'Tektur', sans-serif;
+    font-weight: 400; /* Peso normal para o parágrafo */
+}
