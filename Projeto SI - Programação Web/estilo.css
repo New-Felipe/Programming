@@ -1,0 +1,114 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.banner-principal{
+    background-image: url(imagens-projeto/bcg.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid pink;
+}
+
+.nomes-centrais-banner{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.nomes-centrais-banner h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.section-principal{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.bcg-header{
+    border-bottom: solid 2px #ccc;
+    padding: 10px;
+    background: #292929;
+}
+
+.bcg-header h2{
+    margin: 0;
+    color: white;
+}
+
+.rodape{
+    height: 80px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background: #292929;
+    line-height: 80px;
+}
+
+.banner-principal nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-left: 5px;
+}
+
+.banner-principal nav a{
+    background: rgba(0, 0, 255, 0.3);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.banner-principal nav ul{
+    text-align: right;
+    margin: 20px 35px 0 0;
+}
+
+.banner-principal nav a:hover{
+    background: rgba(4, 9, 80, 0.5);
+}
+
+.nomes-centrais-banner p{
+    background: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+.card{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card p{
+    background-color: grey;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
