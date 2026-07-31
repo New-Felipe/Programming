@@ -1,0 +1,100 @@
+:root {
+    --cor-primaria: rgb(8, 239, 255);
+    --cor-fundo: rgb(57, 64, 122);
+    --cor-texto: #c7b0b0;
+}
+
+.body {
+    flex: 1;
+    color: var(--cor-primaria);
+    padding: 20px;
+    margin: 20px;
+    text-color: rgba(255, 0, 0, 0.5);
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+    flexbox: 1;
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+.bio {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.img{
+    width: 150px;
+    height: auto;
+}
+
+.img:hover{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header{
+    color: var(--cor-fundo);
+    text-align: center;
+}
+
+.color {
+    color: var(--cor-primaria);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #ffffff;
+    }
+}
+
+.footer {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer:hover {
+    background-color: #333;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+    }
+}
+
+@supports (display: grid) {
+    .main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+.hobbies {
+    list-style-type: none;
+    padding: 0;
+    flexbox: 1;
+    margin-left: 160px;
+}
